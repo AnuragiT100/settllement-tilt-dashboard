@@ -115,4 +115,4 @@ else:
     tilted_verts = rotate_vertices(verts, last['tilt_x_deg']*10, last['tilt_y_deg']*10)  # scale tilt for visibility
     st.subheader("3D Building Tilt Visualization")
     fig4 = plot_box(tilted_verts)
-    st.plotly_chart(fig4, use_container_width=True, height=5
+    st.plotly_chart(fig4, use_container_width=True, height=5)

@@ -57,7 +57,7 @@ else:
     st.subheader("3D Building Tilt Visualization")
     fig4 = plot_box(tilted_verts)
     st.plotly_chart(fig4, use_container_width=True, height=500)
-=======
+
 import streamlit as st
 import pandas as pd
 import plotly.express as px
@@ -115,5 +115,4 @@ else:
     tilted_verts = rotate_vertices(verts, last['tilt_x_deg']*10, last['tilt_y_deg']*10)  # scale tilt for visibility
     st.subheader("3D Building Tilt Visualization")
     fig4 = plot_box(tilted_verts)
-    st.plotly_chart(fig4, use_container_width=True, height=500)
->>>>>>> ff6ed34b7f408d0d84bd0ff98a752dc382751fb8
+    st.plotly_chart(fig4, use_container_width=True, height=5

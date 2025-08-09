@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 pandas
 numpy
 scikit-learn
@@ -10,16 +9,3 @@ matplotlib
 paho-mqtt
 reportlab
 python-dotenv
-=======
-pandas
-numpy
-scikit-learn
-tensorflow
-plotly
-prophet
-streamlit
-matplotlib
-paho-mqtt
-reportlab
-python-dotenv
->>>>>>> ff6ed34b7f408d0d84bd0ff98a752dc382751fb8
